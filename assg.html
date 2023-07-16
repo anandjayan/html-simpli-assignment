@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div id="fullpage">
+        <!-- navbarside -->
+       <div id="navbar">
+          <div id="navbarmain">
+             <div id="hamburgermenu">
+                <div class="hamburger">&#9776;</div>
+             </div> 
+             <div id="logo"><img src="images/logo.png" alt="company logo"></div>
+           </div>
+
+           <div id="manage">
+            <ul class="manage">
+                <li>
+                    <button type="button">Manage</button>
+                    <ul class="submenu">
+                        <li><button type="button">Moderate</button></li>
+                        <li><button type="button">Tag</button></li>
+                        <li><button type="button">Compliance</button></li>
+                        <li><button type="button">Payments</button></li>
+                        <li><button type="button">Advance Settings</button></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <div id="users">
+            <ul class="users">
+                <li>
+                    <button type="button">Users</button>
+                    <ul class="submenu">
+                        <li><button type="button">Admin</button></li>
+                        <li><button type="button">Client</button></li>
+                        <li><button type="button">Contact</button></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <div id="engagements">
+            <ul class="engagements">
+                <li>
+                    <button type="button">Engagements</button>
+                    <ul class="submenu">
+                        <li><button type="button">Projects</button></li>
+                        <li><button type="button">Calls</button></li>
+                        <li><button type="button">Calendar</button></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <div id="experts">
+            <ul class="experts">
+                <li>
+                    <button type="button">Experts</button>
+                    <ul class="submenu">
+                        <li><button type="button">Expert Search</button></li>
+                        <li><button type="button">Value Chain</button></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+
+        </div> 
+
+        <div id="header">
+            <div id="menuname">
+                <h3>Our Experts</h3>
+            </div>
+
+            <form class="searchbar">
+                <input type="text" name="search" placeholder="Search BY Name, Expertise, Status">
+            </form>
+
+            <button>+ Add Expert</button>
+
+            <i class=" fas fa-filter"></i>
+
+            <div class="view">
+                <i class="fas fa-th-large"></i>
+                <i class=" fas fa-light fa-list"></i>
+
+            </div>
+
+            <div class="user">
+                <i class="fas fa-solid fa-user"></i>
+                <span style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold;">UserName</span>
+            </div>
+
+        </div>
+       <!-- the table -->
+       <div class="table">
+         
+        <table border="1">
+            <thead>
+              <tr>
+                <th><input type="checkbox"></th> 
+                <th>Name <i class="fas fa-arrow-up"></i><i class="fas fa-arrow-down"></i></th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>ID</th>
+                <th>Cost Price <i class="fas fa-arrow-up"></i><i class="fas fa-arrow-down"></i></th>
+                <th>Created On <i class="fas fa-arrow-up"></i><i class="fas fa-arrow-down"></i></th>
+                <th>Status <i class="fas fa-arrow-up"></i><i class="fas fa-arrow-down"></i></th>
+                <th>Calls <i class="fas fa-arrow-up"></i><i class="fas fa-arrow-down"></i></th>
+                <th>Projects <i class="fas fa-arrow-up"></i><i class="fas fa-arrow-down"></i></th>
+                <th>Bad Calls</th>
+                <th>Rating <i class="fas fa-arrow-up"></i><i class="fas fa-arrow-down"></i></th>
+                <th>More</th>
+                <th>Action</th>
+                <th><i class="fas fa-light fa-ellipsis"></i></th>
+              </tr>
+            </thead>
+            <tbody>
+            
+            
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="name">Vinay Verma</td>
+                    <td class="email">vinayverma@gmail.com</td>
+                    <td class="Phone">+91 123456789</td>
+                    <td class="ID">525363</td>
+                    <td class="costprice">2000</td>
+                    <td class="createdon">27 july 2022</td>
+                    <td class="status"><button>identified</button></td>
+                    <td class="call">270</td>
+                    <td class="projects">20</td>
+                    <td class="badcalls">5</td>
+
+                    <td class="rating"><i class="fa-solid fa-star" style="color: #e4570c;"></i>4.6</td>
+
+                    <td class="more"><i class="fas fa-light fa-ellipsis fa-rotate-90"></i></td>
+
+                    <td class="action"><button><i class="fas fa-light fa-phone" style="color: #2be941;"></i></button></td>
+                    <td class="ellipsis"></td>
+                  </tr>
+
+
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="name">Debprasad Sinha</td>
+                    <td class="email">vinayverma@gmail.com</td>
+                    <td class="Phone">+91 123456789</td>
+                    <td class="ID">525363</td>
+                    <td class="costprice">2000</td>
+                    <td class="createdon">27 july 2022</td>
+                    <td class="status"><button>Onboarding</button></td>
+                    <td class="call">270</td>
+                    <td class="projects">20</td>
+                    <td class="badcalls">5</td>
+                    
+                    <td class="rating"><i class="fa-solid fa-star" style="color: #e4570c;"></i>4.6</td>
+
+                    <td class="more"><i class="fas fa-light fa-ellipsis fa-rotate-90"></i></td>
+
+                    <td class="action"><button><i class="fas fa-sharp fa-solid fa-xmark" style="color: #f00f0f;"></i></button></td>
+                    <td class="ellipsis"><button><i class="fas fa-solid fa-check"></i></button></td>
+                  </tr>
+
+
+
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="name">Vinay Verma</td>
+                    <td class="email">vinayverma@gmail.com</td>
+                    <td class="Phone">+91 123456789</td>
+                    <td class="ID">525363</td>
+                    <td class="costprice">2000</td>
+                    <td class="createdon">27 july 2022</td>
+                    <td class="status"><button>Refused</button></td>
+                    <td class="call">270</td>
+                    <td class="projects">20</td>
+                    <td class="badcalls">5</td>
+                    
+                    <td class="rating"><i class="fa-solid fa-star" style="color: #e4570c;"></i>4.6</td>
+
+                    <td class="more"><i class="fas fa-light fa-ellipsis fa-rotate-90"></i></td>
+
+                    <td class="action"></td>
+                    <td class="ellipsis"></td>
+                  </tr>
+
+
+
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="name">Anmol Kulkarni</td>
+                    <td class="email">vinayverma@gmail.com</td>
+                    <td class="Phone">+91 123456789</td>
+                    <td class="ID">525363</td>
+                    <td class="costprice">2000</td>
+                    <td class="createdon">27 july 2022</td>
+                    <td class="status"><button>Pending Update</button></td>
+                    <td class="call">270</td>
+                    <td class="projects">20</td>
+                    <td class="badcalls">5</td>
+                    
+                    <td class="rating"><i class="fa-solid fa-star" style="color: #e4570c;"></i>4.6</td>
+
+                    <td class="more"><i class="fas fa-light fa-ellipsis fa-rotate-90"></i></td>
+
+                    <td class="action"><button><i class="fas fa-light fa-phone" style="color: #2be941;"></i></button></td>
+                    <td class="ellipsis"></td>
+                  </tr>
+
+
+
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="name">Anmol Kulkarni</td>
+                    <td class="email">vinayverma@gmail.com</td>
+                    <td class="Phone">+91 123456789</td>
+                    <td class="ID">525363</td>
+                    <td class="costprice">2000</td>
+                    <td class="createdon">27 july 2022</td>
+                    <td class="status"><button>Confirmed</button></td>
+                    <td class="call">270</td>
+                    <td class="projects">20</td>
+                    <td class="badcalls">5</td>
+                    
+                    <td class="rating"><i class="fa-solid fa-star" style="color: #e4570c;"></i>4.6</td>
+
+                    <td class="more"><i class="fas fa-light fa-ellipsis fa-rotate-90"></i></td>
+
+                    <td class="action"><button><i class="fas fa-solid fa-rotate-left"></i></button></td>
+                    <td class="ellipsis"></td>
+                  </tr>
+
+
+
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="name">Debprasad Sinha</td>
+                    <td class="email">vinayverma@gmail.com</td>
+                    <td class="Phone">+91 123456789</td>
+                    <td class="ID">525363</td>
+                    <td class="costprice">2000</td>
+                    <td class="createdon">27 july 2022</td>
+                    <td class="status"><button>contacted</button></td>
+                    <td class="call">270</td>
+                    <td class="projects">20</td>
+                    <td class="badcalls">5</td>
+                    
+                    <td class="rating"><i class="fa-solid fa-star" style="color: #e4570c;"></i>4.6</td>
+
+                    <td class="more"><i class="fas fa-light fa-ellipsis fa-rotate-90"></i></td>
+
+                    <td class="action"><button><i class="fas fa-regular fa-square-check" style="color: #20fe23;"></i></button></td>
+                    <td class="ellipsis"></td>
+                  </tr>
+            
+              
+              
+            </tbody>
+          </table>
+
+       </div>
+
+
+       
+
+    </div>
+    
+</body>
+</html>
